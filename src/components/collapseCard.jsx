@@ -18,12 +18,12 @@ const CollapseCard = ({ item: { title, explanation } }) => {
       <div className={Styles["container--icon"]}>
         {istrue ? (
           <i
-            className="fa-solid fa-chevron-up fa-2x"
+            className="fa-solid fa-chevron-down fa-2x"
             onClick={handleCollapse}
           ></i>
         ) : (
           <i
-            className="fa-solid fa-chevron-down fa-2x"
+            className="fa-solid fa-chevron-up fa-2x"
             onClick={handleCollapse}
           ></i>
         )}
